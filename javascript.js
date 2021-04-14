@@ -12,20 +12,20 @@
 
 var numeri = 0;
 
-for (var i = 1; i <= 100; i++ ) {
+for (var i = 1; i <= 100; i++) {
     numeri = i;
     console.log(numeri);
+
     if (i % 5 === 0) {
         console.log("buzz");
-    }    
     
-    if (i % 3 === 0) {
-        console.log("fizz");
-    }    
+    } else if (i % 3 == 0) {
+        console.log("fizz") 
+    }
     
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("fizzBuzz");
-    }    
-}    
+    }
+}
 
 
